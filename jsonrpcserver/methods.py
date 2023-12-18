@@ -20,7 +20,7 @@ Serve the methods::
      * Listening on port 5000
 """
 import logging
-from collections import MutableMapping
+from collections.abc import MutableMapping
 
 try:
     # Python 2
