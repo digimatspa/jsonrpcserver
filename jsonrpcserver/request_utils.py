@@ -6,7 +6,7 @@ Moved here because the request module was getting too big.
 import json
 import pkgutil
 import re
-from collections import Mapping, Sequence
+from collections.abc import Mapping, Sequence
 
 import jsonschema
 from funcsigs import signature
